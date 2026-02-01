@@ -1,0 +1,104 @@
+# Environment variables and API keys - NEVER commit these!
+.env
+.env.local
+.env.*.local
+*.env
+config.py
+secrets.py
+
+# Template files are OK to commit
+!env_template.txt
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Application specific - Cache and user data
+api_cache/
+html_cache/
+publisher_cache/
+ocr_cache/
+verification_history/
+uploads/
+logs/
+webhooks/
+*.log
+
+# User uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Feedback and data files
+feedback_data.json
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+

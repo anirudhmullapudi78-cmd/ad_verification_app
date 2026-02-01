@@ -1,0 +1,10 @@
+flask
+requests
+beautifulsoup4
+tldextract
+spacy
+easyocr
+pillow
+opencv-python
+python-dotenv
+

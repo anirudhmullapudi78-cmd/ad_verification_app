@@ -1,0 +1,32 @@
+# API Configuration Template
+# 
+# INSTRUCTIONS:
+# 1. Copy this file and rename it to .env (without .txt extension)
+# 2. Replace all "your_xxx_api_key_here" with your actual API keys
+# 3. NEVER commit the .env file to GitHub - it's already in .gitignore
+#
+# Get API keys from:
+# - Sonar API: https://openrouter.ai/
+# - WHOIS API: https://www.whoisxmlapi.com/
+# - VirusTotal: https://www.virustotal.com/
+# - Google Safe Browsing: https://console.cloud.google.com/
+# - IPQualityScore: https://www.ipqualityscore.com/
+
+# Sonar API (AI-Powered Analysis) - Recommended
+SONAR_API_KEY=your_sonar_api_key_here
+
+# WHOIS API - Domain Registration Information
+WHOIS_API_KEY=your_whois_api_key_here
+
+# VirusTotal API - Domain Reputation
+VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
+
+# Google Safe Browsing API - Malware/Phishing Detection
+SAFEBROWSING_API_KEY=your_google_safebrowsing_api_key_here
+
+# IPQualityScore API - Fraud Detection
+IPQUALITYSCORE_API_KEY=your_ipqualityscore_api_key_here
+
+# AbuseIPDB API - IP Reputation (Optional)
+ABUSEIPDB_API_KEY=your_abuseipdb_api_key_here
+
